@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,25 +8,201 @@
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <header class="menu-principal">
-        <div class="manu">
-            <ul>
-                <li>
-                    <a href="">Página Inicial</a>
-                </li>
-                <li>
-                    <a href="">Sobre</a>
-                </li>
-                <li>
-                    <a href="">Galeria</a>
-                </li>
-                <li>
-                    <a href="">Sobre Nós</a>
-                </li>
-            </ul>
+    <!-- Menu de navegação -->
+
+    <nav class="navegacao">
+        <div class="logo">
+            <img src="./img/nasa.jpg">
+            <a href="#">
+                <h1>James Webb Space Telescope</h1>
+            </a>
         </div>
-    </header>
-    
+
+        <ul>
+            <li><a class="branco" href="#">Página Inicial</a></li>
+            <li><a class="branco" href="">Sobre</a></li>
+            <li><a class="branco" href="">Galeria</a></li>
+            <li><a class="branco" href="">Sobre Nós</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Carrossel de iamgens -->
+
+    <div class="content">
+        <div class="titulo-slide">
+            <h1> Webb revela novas imagens</h1>
+        </div>
+        <div class="slides">
+            <input class="input" type="radio" name="slide" id="slide1" checked>
+            <input class="input" type="radio" name="slide" id="slide2">
+            <input class="input" type="radio" name="slide" id="slide3">
+            <input class="input" type="radio" name="slide" id="slide4">
+            <input class="input" type="radio" name="slide" id="slide5">
+
+            <div class="slide s1">
+                <img src="./img/webb.jpg" alt="Imagem 1">
+            </div>
+
+            <div class="slide">
+                <img src="./img/nebulosa-carina.jpg" alt="Imagem 2">
+            </div>
+
+            <div class="slide">
+                <img src="./img/jupiter.jpg" alt="Imagem 3">
+            </div>
+
+            <div class="slide">
+                <img src="./img/cosmic.jpg" alt="Imagem 4">
+            </div>
+
+            <div class="slide">
+                <img src="./img/pilares.jpg" alt="Imagem 5">
+            </div>
+
+        </div>
+
+        <div class="navegation">
+            <label class="bar" for="slide1"></label>
+            <label class="bar" for="slide2"></label>
+            <label class="bar" for="slide3"></label>
+            <label class="bar" for="slide4"></label>
+            <label class="bar" for="slide5"></label>
+        </div>
+    </div>
+
+    <!-- Efeito paralax -->
+
+    <section>
+
+    </section>
+    <section class="conteudo-principal">
+        <div class="james-webb">
+            <img src="./img/webb/webb.jpg" alt="Webb na Integração Final">
+            <p> Webb durante a integração final.</p>
+        </div>
+        <div class="sobre">
+            <h1 class="titulo">Sobre</h1>
+
+            <h2 class="subtitulo" >Telescópio Espacial Webb</h2>
+
+            <h3 class="subtitulo" >O Principal Observatório da Próxima Década</h3>
+            <p>
+                O Telescópio Espacial James Webb (às vezes chamado JWST ou Webb) é um grande telescópio
+                infravermelho com um espelho primário de aproximadamente 6,5 metros. O Webb foi lançado com sucesso
+                do espaçoporto da ESA na Guiana Francesa em 25 de dezembro de 2021 07:20 EST (2021-12-25 12:20
+                GMT/UTC).
+                <br><br>
+            </p>
+            <p>
+                Webb é o principal observatório da próxima década, servindo milhares de astrônomos em todo o mundo.
+                Ele estudará todas as fases da história do nosso Universo, desde os primeiros brilhos luminosos após
+                o Big Bang, até a formação de sistemas solares capazes de sustentar a vida em planetas como a Terra,
+                até a evolução do nosso próprio Sistema Solar.
+                <br><br>
+            </p>
+            <p>
+                Webb era anteriormente conhecido como o "Telescópio Espacial de Próxima Geração" (NGST); foi
+                renomeado em setembro de 2002 em homenagem a um ex-administrador da NASA, James Webb .
+                <br><br>
+            </p>
+            <h3 class="subtitulo"  >
+                Colaboração Internacional
+            </h3>
+            <p>
+                Webb é uma colaboração internacional entre a NASA , a Agência Espacial Europeia (ESA) e a Agência
+                Espacial Canadense (CSA ). O Goddard Space Flight Center da NASA gerenciou o esforço de
+                desenvolvimento. O principal parceiro industrial é a Northrop Grumman ; o Space Telescope Science
+                Institute opera o Webb após o lançamento. 
+                <br><br>
+            </p>
+            <h3 class="subtitulo"  >
+                Tecnologias Inovadoras
+            </h3>
+            <p>
+                Diversas tecnologias inovadoras foram desenvolvidas para a Webb. Estes incluem um espelho primário
+                feito de 18 segmentos separados que se desdobram e se ajustam à forma após o lançamento. Os espelhos
+                são feitos de berílio ultraleve. A maior característica do Webb é um protetor solar de cinco camadas
+                do tamanho de uma quadra de tênis que atenua o calor do sol mais de um milhão de vezes. Os quatro
+                instrumentos do telescópio - câmeras e espectrômetros - possuem detectores capazes de registrar
+                sinais extremamente fracos. Um instrumento ( NIRSpec ) possui microobturadores programáveis, que
+                permitem a observação de até 100 objetos simultaneamente. O Webb também possui um criocooler para
+                resfriar os detectores de infravermelho médio de outro instrumento ( MIRI ) a 7 K muito frios para
+                que possam trabalhar.
+            </p>
+        </div>
+
+    </section>
+    <section>
+
+    </section>
+    <section>
+        <div class="nebulosa">
+            <img src="./img/nebulosa-carina.jpg" alt="Imagem de Nebulosa Carina">
+            <p> Nebulosa de Eta Carinae, imagem capturada pelo Telescópio Espacial James Webb.</p>
+        </div>
+        <div class="sobre">
+            <h1 class="titulo">Nebulosa de Eta Carinae</h1>
+
+            <h2 class="subtitulo" >Penhascos Cósmicos</h2>
+
+            <h3 class="subtitulo" >O Webb da NASA revela penhascos cósmicos, paisagem brilhante do nascimento de estrelas</h3>
+            <p>
+                Esta paisagem de “montanhas” e “vales” salpicados de estrelas brilhantes é na verdade a borda de uma região jovem e próxima de formação de estrelas chamada NGC 3324 na Nebulosa Carina. Capturada em luz infravermelha pelo novo Telescópio Espacial James Webb da NASA, esta imagem revela pela primeira vez áreas previamente invisíveis de nascimento de estrelas.
+                <br><br>
+            </p>
+            <p>
+                Chamado de Penhascos Cósmicos, a imagem aparentemente tridimensional de Webb parece montanhas escarpadas em uma noite enluarada. Na realidade, é a borda da gigantesca cavidade gasosa dentro da NGC 3324, e os “picos” mais altos nesta imagem têm cerca de 7 anos-luz de altura. A área cavernosa foi esculpida na nebulosa pela intensa radiação ultravioleta e ventos estelares de estrelas jovens extremamente massivas, quentes e localizadas no centro da bolha, acima da área mostrada nesta imagem.
+                <br><br>
+            </p>
+            <p>
+                A radiação ultravioleta escaldante das estrelas jovens está esculpindo a parede da nebulosa erodindo-a lentamente. Pilares dramáticos se elevam acima da parede brilhante de gás, resistindo a essa radiação. O “vapor” que parece subir das “montanhas” celestes é, na verdade, gás ionizado quente e poeira quente saindo da nebulosa devido à radiação implacável.
+                <br><br>
+            </p>
+            <p>
+                Webb também revelará o impacto da formação estelar na evolução de gigantescas nuvens de gás e poeira. Embora o efeito de estrelas massivas – com seus ventos violentos e alta energia – seja frequentemente aparente, pouco se sabe sobre a influência das mais numerosas estrelas de baixa massa. À medida que se formam, essas estrelas menores criam jatos estreitos e opostos vistos aqui, que podem injetar muito impulso e energia nas nuvens. Isso reduz a fração de material nebular que semeia novas estrelas.
+                <br><br>
+            </p>
+        </div>
+    </section>
+    <section>
+
+    </section>
+    <section>
+        <div class="neb-tarantula">
+            <img src="./img/tarantula.jpg" alt="Imagem de Nebulosa da Tarântula">
+            <p>  Tarântula cósmica, capturada pelo Webb da NASA capturada pelo Telescópio Espacial James Webb.</p>
+        </div>
+        <div class="sobre">
+            <h1 class="titulo">Nebulosa da Tarântula</h1>
+
+            <h2 class="subtitulo" >Telescópio Webb</h2>
+
+            <p>
+                Era uma vez no espaço-tempo, uma história de criação cósmica se desenrolou: Milhares de estrelas jovens nunca antes vistas vistas em um berçário estelar chamado 30 Doradus, capturado pelo Telescópio Espacial James Webb da NASA. Apelidada de Nebulosa da Tarântula pela aparência de seus filamentos empoeirados em imagens de telescópios anteriores , a nebulosa tem sido uma das favoritas dos astrônomos que estudam a formação de estrelas. Além de estrelas jovens, Webb revela galáxias distantes de fundo, bem como a estrutura detalhada e composição do gás e poeira da nebulosa.
+                <br><br>
+            </p>
+            <p>
+                A apenas 161.000 anos-luz de distância na galáxia da Grande Nuvem de Magalhães, a Nebulosa da Tarântula é a maior e mais brilhante região de formação de estrelas do Grupo Local, as galáxias mais próximas da nossa Via Láctea. É o lar das estrelas mais quentes e massivas conhecidas. Os astrônomos focaram três dos instrumentos infravermelhos de alta resolução do Webb na Tarântula. Visto com a câmera de infravermelho próximo da Webb (NIRCam), a região lembra a casa de uma tarântula escavadora, forrada com sua seda. A cavidade da nebulosa centrada na imagem do NIRCam foi escavada pela radiação empolgante de um aglomerado de estrelas jovens massivas, que brilham em azul pálido na imagem. Apenas as áreas circundantes mais densas da nebulosa resistem à erosão pelos poderosos ventos estelares dessas estrelas, formando pilares que parecem apontar para o aglomerado. Esses pilares contêm protoestrelas em formação, que eventualmente emergirão de seus casulos empoeirados e moldarão a nebulosa.
+                <br><br>
+            </p>
+            <p>
+                Uma das razões pelas quais a Nebulosa da Tarântula é interessante para os astrônomos é que a nebulosa tem um tipo de composição química semelhante às gigantescas regiões de formação de estrelas observadas no “ meio-dia cósmico ” do universo.”, quando o cosmos tinha apenas alguns bilhões de anos e a formação de estrelas estava no auge. As regiões de formação de estrelas em nossa galáxia Via Láctea não estão produzindo estrelas na mesma velocidade furiosa que a Nebulosa da Tarântula e têm uma composição química diferente. Isso torna a Tarântula o exemplo mais próximo (ou seja, mais fácil de ver em detalhes) do que estava acontecendo no universo quando atingiu seu brilhante meio-dia. O Webb fornecerá aos astrônomos a oportunidade de comparar e contrastar as observações da formação estelar na Nebulosa da Tarântula com as observações profundas do telescópio de galáxias distantes da era real do meio-dia cósmico.
+                <br><br>
+            </p>
+            <p>
+                Apesar dos milhares de anos de observação de estrelas da humanidade, o processo de formação de estrelas ainda guarda muitos mistérios – muitos deles devido à nossa incapacidade anterior de obter imagens nítidas do que estava acontecendo por trás das espessas nuvens de berçários estelares. Webb já começou a revelar um universo nunca visto antes e está apenas começando a reescrever a história da criação estelar.  
+                <br><br>
+            </p>
+    </section>
+    <footer>
+        <p>&copy; CENTEC || Jessica Batista & || TIV - 01/22</p>
+    </footer>
+
+    <script src="./script.js"></script>
+   
 </body>
+
 </html>
