@@ -4,7 +4,31 @@
     padding: 0;
 }
 
-/* Menu de navegação */
+/* =================================================================
+Menu de navegação
+================================================================= */
+
+
+nav {
+    position: fixed !important;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    background-color: #000000;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    z-index: 1;
+
+}
+
+/* =================================================================
+Menu esquerdo
+================================================================= */
 
 body {
     width: 100vw;
@@ -54,20 +78,9 @@ nav h1 {
 }
 
 
-nav {
-    position: fixed !important;
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #000000;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 5px;
-
-}
+/* =================================================================
+Menu direito
+   ================================================================= */
 
 nav ul {
     text-decoration: none;
@@ -121,7 +134,9 @@ nav li a:hover {
 
 }
 
-/*  Carrossel   */
+/* =================================================================
+Carrossel
+================================================================= */
 
 .content {
     height: 560px;
@@ -201,17 +216,19 @@ input {
     margin-left: -80%;
 }
 
-/* Corpo // Efeito parallax */
+/* =================================================================
+Body efeito parallax
+================================================================= */
 
 section {
-    width: 92%;
+    width: auto;
     height: 100%;
     text-align: center;
     color: #000000;
     display: flex;
 
-    margin-bottom: 20px;
-    padding-right: 200px;
+    margin-bottom: 2%;
+    padding-right: 50px;
     justify-content: space-around;
     align-items: flex-start;
     font-family: roboto, sans-serif;
@@ -224,8 +241,6 @@ section {
 
 
 }
-
-
 
 
 section h1 {
@@ -247,12 +262,12 @@ section:nth-of-type(5) {
 
 /* =================================================================
 james webb
-   ================================================================= */
+================================================================= */
 
 .james-webb {
     margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
+    margin-right: 2%;
+    margin-top: 2%;
     padding: 0%;
     width: 100%;
     height: 100%;
@@ -263,24 +278,31 @@ james webb
     margin-bottom: 15px;
 }
 
+.james-webb p {
+    font-style: italic;
+    color: gray;
+    font-size: 17px;
+
+}
+
 /* =================================================================
 Conteudo - sessão 1
    ================================================================= */
 
 .sobre .titulo {
+    border-bottom: solid 2px;
     font-size: 40px;
 }
 .sobre {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
-    padding-right: 5px;
+    padding-right: 0%;
+    padding-left: 45px;
     width: 100%;
     height: 100%;
-    margin-top: 5%;
+    margin-top: 2%;
     text-align: justify;
     font-style: italic;
     font-size: 20px;
+    border-left: solid 2px;
 }
 
 .subtitulo{
@@ -294,8 +316,9 @@ Conteudo - sessão 1
 }
 
 .conteudo-principal {
-    width: 92%;
-    height: 150%;
+    width: auto;
+    height: auto;
+    margin-bottom: 2%;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -303,22 +326,23 @@ Conteudo - sessão 1
 
 /* =================================================================
 Conteudo - sessão 2
-   ================================================================= */
+================================================================= */
 
 .nebulosa img {
-
-    width: 100%;
-    height: 100%;
-
     margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
-    margin-bottom: 5px;
+    margin-right: 2%;
+    margin-top: 2%;
     padding: 0%;
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
+    margin-bottom: 5px;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.350);
 
+}
+.nebulosa p {
+    font-style: italic;
+    color: gray;
+    font-size: 17px;
 }
 
 .nebulosa .sobre p {
@@ -328,22 +352,28 @@ Conteudo - sessão 2
     margin-bottom: 20px;
 }
 
+
 /* =================================================================
 Conteudo - sessão 3
-   ================================================================= */
+================================================================= */
 
    .neb-tarantula img {
 
-    width: 100%;
-    height: 100%;
-
     margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
+    margin-right: 2%;
+    margin-top: 2%;
     padding: 0%;
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
+    margin-bottom: 10px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.350);
 
+}
+
+.neb-tarantula p {
+    font-style: italic;
+    color: gray;
+    font-size: 17px;
 }
 
 .neb-tarantula .sobre p {
@@ -353,14 +383,32 @@ Conteudo - sessão 3
     margin-top: 0%;
 }
 
+/* =================================================================
+footer
+================================================================= */
 
 footer {
     background-color: rgb(10, 7, 22);
-    text-align: center;
     color: white;
     padding: 50px;
-    margin-top: 10px;
-
     font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p {
+    text-align: center;
+    margin-left: 30%;
+}
+
+.btn-voltar{
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+
+    color: #ffffff;
+    text-decoration: none;
+
+    
 
 }
